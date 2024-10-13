@@ -1,5 +1,5 @@
 CREATE TABLE refresh_tokens (
-                                id VARCHAR(36) NOT NULL PRIMARY KEY
+                               id VARCHAR(36) NOT NULL PRIMARY KEY
 );
 
 CREATE TABLE access_tokens (

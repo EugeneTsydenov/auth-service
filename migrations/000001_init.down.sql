@@ -1,1 +1,1 @@
-DROP TABLE refresh_tokens;
+DROP TABLE access_tokens;
