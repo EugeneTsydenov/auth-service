@@ -34,3 +34,6 @@ tasks:
   test:
     cmd: go test ./...
     desc: "Run tests"
+
+  migrate:run:
+    cnd: migrate -path=internal/database/migrations -database "postgresql://postgres:postgres@localhost:5400/auth?sslmode=disable"
